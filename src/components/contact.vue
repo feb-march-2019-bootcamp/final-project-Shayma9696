@@ -16,12 +16,13 @@
         <input type="hidden" name="form-name" value="contact">
         <div class="form-group">
           <label for="name">User Name</label>
-          <input type="text" name="name" class="form-control" placeholder="Enter User Name">
+          <input type="text" name="name" class="form-control" v-model="name" placeholder="Enter User Name">
         </div>
         <div class="form-group">
           <label for="exampleInputEmail">Email address</label>
           <input
             type="email"
+             v-model="email"
             class="form-control"
             name="email"
             aria-describedby="emailHelp"
@@ -30,12 +31,12 @@
         </div>
         <div class="form-group">
           <label for="age">Age</label>
-          <input type="number" class="form-control" name="age" placeholder="Enter Your age">
+          <input type="number"  v-model="age" class="form-control" name="age" placeholder="Enter Your age">
         </div>
         <div class="form-group">
           <label for="career">Choose your Career</label>
           
-          <select class="form-control" name="career">
+          <select class="form-control"   v-model="career" name="career">
             <option>Student</option>
             <option>Teacher</option>
             <option>Employee</option>
@@ -43,7 +44,7 @@
         </div>
         <div class="form-group">
           <label for="message">Message</label>
-          <textarea class="form-control" name="message" rows="10"></textarea>
+          <textarea class="form-control" name="message"  v-model="message" rows="10"></textarea>
         </div>
         <fieldset>
           <button type="submit" class="btn btn-primary">Submit</button>
