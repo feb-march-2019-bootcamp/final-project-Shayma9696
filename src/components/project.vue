@@ -24,8 +24,8 @@
             <td>Personal Portfolio Webpage</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-2-Shayma9696">Show</a>
-                 <a class="btn btn-info" href="https://focused-booth-87b4ef.netlify.com/index2.html">Visit</a>
+                <a class="btn btn-info" target="_blank" href="https://github.com/feb-march-2019-bootcamp/project-2-Shayma9696">Show</a>
+                 <a class="btn btn-info" target="_blank" href="https://focused-booth-87b4ef.netlify.com/index2.html">Visit</a>
               </div>
             </th>
           </tr>
@@ -33,8 +33,8 @@
             <td>Palindrome</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-3-Shayma9696">Show</a>
-                 <a class="btn btn-info" href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker/">Visit</a>
+                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-3-Shayma9696" target="_blank">Show</a>
+                 <a class="btn btn-info" target="_blank" href="https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker/">Visit</a>
               </div>
             </th>
           </tr>
@@ -42,8 +42,8 @@
             <td>To Do List</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-4-Shayma9696">Show</a>
-                 <a class="btn btn-info" href="https://awesome-franklin-730fd7.netlify.com/project4.html">Visit</a>
+                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-4-Shayma9696" target="_blank">Show</a>
+                 <a class="btn btn-info" href="https://awesome-franklin-730fd7.netlify.com/project4.html" target="_blank"> Visit</a>
               </div>
             </th>
           </tr>
@@ -51,8 +51,8 @@
             <td>Random Quote Machine</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-week-5-Shayma9696">Show</a>
-                 <a class="btn btn-info" href="https://vigorous-brahmagupta-6e4ac6.netlify.com/">Visit</a>
+                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-week-5-Shayma9696" target="_blank">Show</a>
+                 <a class="btn btn-info" href="https://vigorous-brahmagupta-6e4ac6.netlify.com/" target="_blank">Visit</a>
               </div>
             </th>
           </tr>
@@ -60,8 +60,8 @@
             <td>Order Form</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-6-Shayma9696">Visit</a>
-                 <a class="btn btn-info" href="https://heuristic-pare-397471.netlify.com/proect5.html">Show</a>
+                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-6-Shayma9696" target="_blank">Visit</a>
+                 <a class="btn btn-info" href="https://heuristic-pare-397471.netlify.com/proect5.html" target="_blank">Show</a>
               </div>
             </th>
           </tr>
