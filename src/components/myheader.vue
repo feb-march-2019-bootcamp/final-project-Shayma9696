@@ -34,32 +34,39 @@ export default {
   methods: {
     red() {
       document.body.querySelector(".intt").style.background = "rgb(151, 51, 26)";
+      document.body.querySelector(".intt").style.borderColor = "rgb(151, 51, 26)";
       document.body.querySelector(".intt").style.color = "white";
     },
     yellow() {
       document.body.querySelector(".intt").style.background = "rgba(234,342,20,0.9)";
+      document.body.querySelector(".intt").style.borderColor = "rgba(234,342,20,0.9)";
       document.body.querySelector(".intt").style.color = "black";
     },
      green() {
       document.body.querySelector(".intt").style.background = "rgb(102, 192, 143)";
+      document.body.querySelector(".intt").style.borderColor = "rgb(102, 192, 143)";
       document.body.querySelector(".intt").style.color = "black";
     },
      blue() {
       document.body.querySelector(".intt").style.background = "rgb(86, 165, 230)";
+        document.body.querySelector(".intt").style.borderColor = "rgb(86, 165, 230)";
        
       document.body.querySelector(".intt").style.color = "black";
     },
      pink() {
       document.body.querySelector(".intt").style.background = "rgb(250, 148, 236)";
+        document.body.querySelector(".intt").style.borderColor = "rgb(250, 148, 236)";
       document.body.querySelector(".intt").style.color = "black";
     },
      gray() {
       document.body.querySelector(".intt").style.background = "rgb(116, 122, 122)";
+        document.body.querySelector(".intt").style.borderColor = "rgb(116, 122, 122)";
       document.body.querySelector(".intt").style.color = "black";
     },
 
  purple() {
       document.body.querySelector(".intt").style.background = "rgb(100, 31, 71)";
+        document.body.querySelector(".intt").style.borderColor = "rgb(100, 31, 71)";
       document.body.querySelector(".intt").style.color = "black";
     },
   }
