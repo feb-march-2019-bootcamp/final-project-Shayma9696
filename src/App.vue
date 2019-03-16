@@ -4,6 +4,10 @@
      <div class="horizantal-container">
       <b-navbar toggleable="lg" type="dark" variant="info" class="nav">
         <b-navbar-nav>
+           <router-link to="" class="nav-link">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            Personal
+          </router-link>
           <router-link to="/" class="nav-link">
             <i class="fa fa-home" aria-hidden="true"></i>
             Home
