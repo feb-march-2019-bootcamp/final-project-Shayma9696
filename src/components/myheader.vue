@@ -6,8 +6,7 @@
         <br>
         <br>
         <br>
-        <p id="intoP">Developing This Personal Blog project was helpful for learning new techniques about web,
-          <br>and special thanks to everyone who contributed in this course.<br><br>
+        <p id="intoP">
             Having a personal website is an advantage in itself. It helps you reach several personal goals at a time,
           <br>being the top notch destination for everyone, who wants to find out more about your occupation, hobby,
           <br>professional, personal details, life facts and other information you will upload to the Internet.
