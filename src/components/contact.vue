@@ -6,6 +6,7 @@
     </div>
     <div class="container">
       <form name="contact" class="formContact" @submit.prevent="submit()" action="/" method="POST" data-netlify="true">
+       <input type="hidden" name="form-name" value="contact">
         <div class="form-group">
           <label for="name">User Name</label>
           <input type="text" name="name" class="form-control" placeholder="Enter User Name">
