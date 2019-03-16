@@ -47,7 +47,7 @@
           <textarea class="form-control" name="message"  v-model="message" rows="10"></textarea>
         </div>
         <fieldset>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
         </fieldset>
       </form>
     </div>
