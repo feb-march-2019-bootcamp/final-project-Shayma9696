@@ -60,8 +60,8 @@
             <td>Order Form</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-6-Shayma9696" target="_blank">Visit</a>
-                 <a class="btn btn-info" href="https://heuristic-pare-397471.netlify.com/proect5.html" target="_blank">Show</a>
+                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-6-Shayma9696" target="_blank">Show</a>
+                 <a class="btn btn-info" href="https://heuristic-pare-397471.netlify.com/proect5.html" target="_blank">Visit</a>
               </div>
             </th>
           </tr>
