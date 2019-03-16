@@ -15,8 +15,8 @@
             <td>Survery Form</td>
             <th>
               <div class="btn-group">
-                <a class="btn btn-info" href="https://github.com/feb-march-2019-bootcamp/project-1-Shayma9696">Show</a>
-                 <a class="btn btn-info" href="https://quirky-cori-68a703.netlify.com//">Visit</a>
+                <a class="btn btn-info" target="_blank" href="https://github.com/feb-march-2019-bootcamp/project-1-Shayma9696">Show</a>
+                 <a class="btn btn-info" target="_blank" href="https://quirky-cori-68a703.netlify.com//">Visit</a>
               </div>
             </th>
           </tr>
