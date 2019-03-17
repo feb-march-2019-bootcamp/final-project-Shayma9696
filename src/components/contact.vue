@@ -1,61 +1,49 @@
 <template>
-  <div class="contact">
-    <div id="welcome-section" class="int">
+  <div class="contact col-md-12 mb-4">
+    <div id="welcome-section" class="int col-md-12 mb-4">
       <h1>Welcome to Personal Blogs</h1>
       <p id="intoP">a web developer</p>
     </div>
-    <div class="container">
-      <form
-        name="contact"
-        class="formContact"
-        @submit.prevent="submit()"
-        action="/"
-        method="POST"
-        data-netlify="true"
-      >
-        <input type="hidden" name="form-name" value="contact">
-        <div class="form-group">
+    <div class="container col-md-12 mb-4">
+      <form name="contact" class="formContact col-md-12 mb-4" @submit.prevent="submit()" action="/" method="POST" data-netlify="true">
+        <div class="form-group col-md-12 mb-4">
           <label for="name">User Name</label>
-          <input type="text" name="name" class="form-control" v-model="name" placeholder="Enter User Name">
+          <input type="text" name="name" class="form-control" placeholder="Enter User Name">
         </div>
-        <div class="form-group">
+        <div class="form-group col-md-12 mb-4">
           <label for="exampleInputEmail">Email address</label>
           <input
             type="email"
-             v-model="email"
             class="form-control"
             name="email"
             aria-describedby="emailHelp"
             placeholder="Enter email"
           >
         </div>
-        <div class="form-group">
+        <div class="form-group col-md-12 mb-4">
           <label for="age">Age</label>
-          <input type="number"  v-model="age" class="form-control" name="age" placeholder="Enter Your age">
+          <input type="number" class="form-control" name="age" placeholder="Enter Your age">
         </div>
-        <div class="form-group">
+        <div class="form-group col-md-12 mb-4">
           <label for="career">Choose your Career</label>
           
-          <select class="form-control"   v-model="career" name="career">
+          <select class="form-control col-md-12 mb-4" name="career">
             <option>Student</option>
             <option>Teacher</option>
             <option>Employee</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="form-group col-md-12 mb-4">
           <label for="message">Message</label>
-          <textarea class="form-control" name="message"  v-model="message" rows="10"></textarea>
+          <textarea class="form-control" name="message" rows="10"></textarea>
         </div>
         <fieldset>
-          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </fieldset>
       </form>
     </div>
-    <div id="welcome-section" class="int">
-      <h4>Socail Media we use .....</h4>
-      <br>
-      <br>
-      <br>
+    <div id="welcome-section" class="int col-md-12 mb-4">
+      <h4>Socail Media we use .....</h4><br><br><br>
       <a href="https://facebook.com" target="_blank" class="det">Facebook</a>
       <a href="https://github.com" target="_blank" class="det">GitHub</a>
       <a href="https://twitter.com" target="_blank" class="det">Twitter</a>
@@ -99,9 +87,7 @@ export default {
           "form-name": "contact",
 
           name: this.name,
-          email: this.email,
-          age: this.age,
-          career: this.career,
+
           message: this.message
         }
       )
@@ -133,18 +119,18 @@ export default {
   width: 500px;
   height: 300vh;
 }
-.formContact {
-  width: 1000px;
+.formContact{
+  width:1000px;
   padding-left: 100px;
 }
 .container {
   text-align: center;
   padding-right: 100px;
 }
-.det {
-  background: rgb(74, 150, 175);
+.det{
+  background:rgb(74, 150, 175);
   color: #154646;
-  border: 3px solid rgb(180, 177, 177);
+  border:3px solid rgb(180, 177, 177);
   border-radius: 100%;
   width: 100px;
   height: 100px;

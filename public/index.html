@@ -18,7 +18,6 @@
   <!-- built files will be auto injected -->
 
   <form name="contact" @submit.prevent="submit()" action="/" method="POST" data-netlify="true" hidden>
-    <input type="hidden" name="form-name" value="contact">
     <div class="form-group">
       <label for="name">User Name</label>
       <input type="text" name="name" class="form-control" placeholder="Enter User Name">
@@ -45,7 +44,7 @@
       <textarea class="form-control" name="message" rows="10"></textarea>
     </div>
     <fieldset>
-      <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </fieldset>
   </form>
 
