@@ -6,7 +6,7 @@
       <h1>Shayma Adnan</h1>
     </header>
     <main>
-     <div class="row vertical-lined">
+     <div class="row vertical-lined col-12 mb-4">
         <div class="col-6">
           <h5 class="lt">Personal Information</h5>
           <br><br>
